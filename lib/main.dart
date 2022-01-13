@@ -22,6 +22,12 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(
               title: Text("Cashy"),
               backgroundColor: darkBlue,
+              actions: <Widget>[
+                IconButton(                  
+                  onPressed: () {},
+                  icon: Icon(Icons.mail),
+                ),
+              ],
             ),
             body: SafeArea(
                 child: Container(
